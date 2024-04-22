@@ -4,7 +4,7 @@ import json
 from IPython.display import display,clear_output,Markdown,Image
 import time
 
-AZURE_OPENAI_API_KEY="4742485e049f436ebace21e4c04672cb"
+AZURE_OPENAI_API_KEY=""
 AZURE_OPENAI_ENDPOINT="https://team10.openai.azure.com/"
 client = AzureOpenAI(
     api_key=AZURE_OPENAI_API_KEY,  
